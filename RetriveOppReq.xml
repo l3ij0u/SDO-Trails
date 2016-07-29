@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:enterprise.soap.sforce.com">
+   <soapenv:Header>
+      <urn:SessionHeader>
+         <urn:sessionId>00D4E0000008hgh!ARwAQLXSugVbUrgTUkVsTpqtvj4BOuzpuOPdFEIVNWhxXS2qpQ6fa4LNG4v5hXRMJVFJFRWoiXCtvlcdEPt2iEiDSchDB7MU</urn:sessionId>
+      </urn:SessionHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <urn:retrieve>
+         <urn:fieldList>Id,IsDeleted,AccountId,IsPrivate,Name,Description,StageName,Amount,Probability,ExpectedRevenue,TotalOpportunityQuantity,CloseDate,Type,NextStep,LeadSource,IsClosed,IsWon,ForecastCategory,ForecastCategoryName,CampaignId,HasOpportunityLineItem,Pricebook2Id,OwnerId,CreatedDate,CreatedById,LastModifiedDate,LastModifiedById,SystemModstamp,LastActivityDate,FiscalQuarter,FiscalYear,Fiscal,LastViewedDate,LastReferencedDate,ContractId,HasOpenActivity,HasOverdueTask,App_status__c,PRX_Approval_Ongoing__c,PRX_BCI_Opportunity_ID__c,PRX_Lost_Reason__c,PRX_OpportunityID__c,Complex_Bid_Approval_Type_Child_Records__c,Number_of_Request_Sent__c,Number_of_Responses_Received__c</urn:fieldList>
+         <urn:sObjectType>Opportunity</urn:sObjectType>
+         <!--Zero or more repetitions:-->
+         <urn:ids>0064E000002kAYA</urn:ids>
+      </urn:retrieve>
+   </soapenv:Body>
+</soapenv:Envelope>

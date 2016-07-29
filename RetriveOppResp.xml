@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:enterprise.soap.sforce.com" xmlns:sf="urn:sobject.enterprise.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header>
+      <LimitInfoHeader>
+         <limitInfo>
+            <current>1756</current>
+            <limit>5000000</limit>
+            <type>API REQUESTS</type>
+         </limitInfo>
+      </LimitInfoHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <retrieveResponse>
+         <result xsi:type="sf:Opportunity">
+            <sf:Id>0064E000002kAYAQA2</sf:Id>
+            <sf:AccountId>0014E00000BfApAQAV</sf:AccountId>
+            <sf:CloseDate>2016-07-26</sf:CloseDate>
+            <sf:Complex_Bid_Approval_Type_Child_Records__c>0.0</sf:Complex_Bid_Approval_Type_Child_Records__c>
+            <sf:CreatedById>005580000013XefAAE</sf:CreatedById>
+            <sf:CreatedDate>2016-07-25T22:28:46.000Z</sf:CreatedDate>
+            <sf:Fiscal>2016 3</sf:Fiscal>
+            <sf:FiscalQuarter>3</sf:FiscalQuarter>
+            <sf:FiscalYear>2016</sf:FiscalYear>
+            <sf:ForecastCategory>Pipeline</sf:ForecastCategory>
+            <sf:ForecastCategoryName>Pipeline</sf:ForecastCategoryName>
+            <sf:HasOpenActivity>false</sf:HasOpenActivity>
+            <sf:HasOpportunityLineItem>false</sf:HasOpportunityLineItem>
+            <sf:HasOverdueTask>false</sf:HasOverdueTask>
+            <sf:IsClosed>false</sf:IsClosed>
+            <sf:IsDeleted>false</sf:IsDeleted>
+            <sf:IsPrivate>false</sf:IsPrivate>
+            <sf:IsWon>false</sf:IsWon>
+            <sf:LastModifiedById>005580000013XefAAE</sf:LastModifiedById>
+            <sf:LastModifiedDate>2016-07-25T22:28:48.000Z</sf:LastModifiedDate>
+            <sf:LastReferencedDate>2016-07-28T10:27:19.000Z</sf:LastReferencedDate>
+            <sf:LastViewedDate>2016-07-28T10:27:19.000Z</sf:LastViewedDate>
+            <sf:Name>TestBCISolutionB</sf:Name>
+            <sf:Number_of_Request_Sent__c>0.0</sf:Number_of_Request_Sent__c>
+            <sf:Number_of_Responses_Received__c>0.0</sf:Number_of_Responses_Received__c>
+            <sf:OwnerId>005580000013XefAAE</sf:OwnerId>
+            <sf:PRX_Approval_Ongoing__c>false</sf:PRX_Approval_Ongoing__c>
+            <sf:PRX_BCI_Opportunity_ID__c>ERR160726035848</sf:PRX_BCI_Opportunity_ID__c>
+            <sf:PRX_OpportunityID__c>0064E000002kAYAQA2</sf:PRX_OpportunityID__c>
+            <sf:Probability>10.0</sf:Probability>
+            <sf:StageName>Prospecting</sf:StageName>
+            <sf:SystemModstamp>2016-07-26T10:34:30.000Z</sf:SystemModstamp>
+         </result>
+      </retrieveResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
