@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Mobile_CSO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Mobile CSO</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Unit_Manager_CSO_COO_Mobile</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Unit_Manager_CSO_COO_Mobile</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Test_AK_sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Test AK sharing</label>
+        <sharedTo>
+            <group>Test_AK</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Test_AK</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>
